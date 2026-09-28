@@ -1,0 +1,7 @@
+project: savantenvs/toy
+target: toy-parser-fuzz-buggy-mhh-run-9
+# origin: https://app.mayhem.security/mayhemheroes/toy/toy-parser-fuzz/9
+
+cmds:
+  - cmd: /mayhem/build/toy-parser-fuzz
+    libfuzzer: true
